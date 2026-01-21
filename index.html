@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Style.css">
+        <title>John Katzenbach</title>
+    </head>
+    <body>
+        <header>
+            <h1>John Katzenbach</h1>
+            <p>Autor de novelas de suspenso psicológico</p>
+        </header>
+
+        <section class="info">
+            <h2>Sobre el autor</h2>
+            <p>
+                John Katzenbach es un escritor estadounidense famoso por sus libros
+                de misterio y suspenso, como <strong>El psicoanalista</strong> y
+                <strong>La historia del loco</strong>.
+            </p>
+        </section>
+
+        <section class="contenido">
+        
+            <div class="ruleta">
+                <h2 id="tituloLibro">El club de los psicópatas</h2>
+
+                <img id="imagenLibro" src="images/clubpsico.jpeg" alt="Libro">
+
+                <div class="botones">
+                    <button onclick="anterior()">⟵</button>
+                    <button onclick="siguiente()">⟶</button>
+                </div>
+            </div>
+
+            <div class="video">
+                <h2>Video relacionado</h2>
+                <video width="400" controls>
+                    <source src="images/videoClub.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <button onclick="mostrarMensaje()">Haz clic aquí</button> 
+
+        </section>
+
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

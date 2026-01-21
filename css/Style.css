@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../images/back.webp");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+p {
+    color: #fdfcfc;
+    font-size: 26px;
+}
+h2 {
+    color: #fdfcfc;
+}
+
+img {
+    width: 200px;
+    animation: aparecer 2s;
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.ruleta, .video {
+    text-align: center;
+}
+
+.ruleta img {
+    width: 320px;
+}
+
+.video video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.botones button {
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+
+    background-color: #f7f6f6;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 8px;
+
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botones button:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+.botones button:active {
+    transform: scale(0.95);
+}
+
+
+button {
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+
+    background-color: #f7f6f6;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 8px;
+
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
