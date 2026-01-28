@@ -1,14 +1,13 @@
 const CACHE_NAME = "katzenbach-cache-v1";
 const FILES_TO_CACHE = [
-  "./",
-  "./index.html",
-  "./css/Style.css",
-  "./js/app.js",
-  "./images/clubpsico.jpeg",
-  "./images/historialoco.webp",
-  "./images/juegos.jpg",
-  "./images/profesor.jpeg",
-  "./images/videoClub.mp4"
+  "index.html",
+  "/css/Style.css",
+  "/js/app.js",
+  "/images/clubpsico.jpeg",
+  "/images/historialoco.webp",
+  "/images/juegos.jpg",
+  "/images/profesor.jpeg",
+  "/images/videoClub.mp4"
 ];
 
 // Instalación
@@ -43,3 +42,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
