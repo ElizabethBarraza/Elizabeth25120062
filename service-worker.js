@@ -1,5 +1,6 @@
 const CACHE_NAME = "katzenbach-cache-v1";
 const FILES_TO_CACHE = [
+  "./",
   "index.html",
   "/css/Style.css",
   "/js/app.js",
@@ -42,4 +43,5 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
 
